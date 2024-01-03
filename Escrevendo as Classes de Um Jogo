@@ -1,0 +1,22 @@
+
+class heroi{
+    constructor(nome, idade, tipo, ataque){
+        this.nome = nome
+        this.idade = idade
+        this.tipo = tipo 
+        this.ataque= ataque
+    }
+
+        escrever(){
+            console.log(`o ${this.tipo} atacou usando ${this.ataque}`)
+
+        }
+  }
+
+  let personagem = new heroi("atsugua", 25, " mago ", " magia ")
+
+  personagem.escrever()
+
+
+
+
